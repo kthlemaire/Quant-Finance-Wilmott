@@ -8,9 +8,9 @@ This project contains Python implementations of financial concepts introduced in
 
 Discrete compounding assumes that interest is paid at fixed intervals (typically once per year). The future value of an investment is calculated using:
 
-\[
+$$
 A = S(1 + r)^t
-\]
+$$
 
 where:
 
@@ -23,9 +23,9 @@ where:
 
 When interest is compounded multiple times per year, the future value is given by:
 
-\[
+$$
 A = S\left(1 + \frac{r}{m}\right)^{mt}
-\]
+$$
 
 where:
 
@@ -48,9 +48,9 @@ A forward contract is an agreement between two parties to buy or sell an asset a
 
 The theoretical forward price is given by:
 
-\[
+$$
 F = Se^{(r-q)T}
-\]
+$$
 
 where:
 
